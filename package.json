@@ -1,0 +1,19 @@
+{
+  "name": "aniquick",
+  "version": "1.0.0",
+  "description": "A chatgpt based anime suggestor",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajinkya2020/Aniquick.git"
+  },
+  "author": "Ajinkya Suryawanshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajinkya2020/Aniquick/issues"
+  },
+  "homepage": "https://github.com/ajinkya2020/Aniquick#readme"
+}
