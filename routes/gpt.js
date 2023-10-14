@@ -23,7 +23,7 @@ router.post('/animeByGenre', (req, res) => {
 async function generateAnimeByGenrePrompt(genreInput) {
   const completion = await openai.completions.create({
     model: "text-davinci-003",
-    prompt: `hello`,
+    prompt: `recommend anime by ${genreInput}. only the names please.`,
     temperature: 0.6,
     max_tokens: 30
   });
